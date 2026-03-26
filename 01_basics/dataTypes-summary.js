@@ -33,3 +33,31 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory
+// Stack (Primitive)(variable copy milta hai), Heap (Non-Primitive)(reference milta hai)
+
+let myYoutubename = "hiteshchoundharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
