@@ -35,3 +35,14 @@ const url = "https://nandu.com/nandu%20dube"
 // console.log(url.includes('sunder'));
 
 // console.log(gameName.split('-'));
+
+let str = "Hello";
+// console.log(typeof str);
+
+let str2 = new String ("Nandu")
+// console.log(typeof str2);
+
+// console.log([] + []);
+// console.log([] + {});
+
+// console.log([1,2] + [3,4]);
